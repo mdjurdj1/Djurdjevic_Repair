@@ -6,11 +6,11 @@ class Home extends Component {
   render() {
     return (
       <Container text id="home">
-       <Header as='h2'>Computer Repair Servicing The Capital District!</Header>
+       <Header as='h2'>Welcome to DJ's Computer Repair Shop!</Header>
        <div className="ui divider"></div>
        <p className="blue">Need Computer Help? Give us a call or email for a FREE diagnosis!</p>
        <p />
-       <p>Here at Djurdjevic repair, we aim to provide lightning-fast, professional computer repairs within a single business day.
+       <p>Here at DJ's Computers, we aim to provide lightning-fast, professional computer repairs within a single business day.
        Can't bring your computer to us? We can provide in-home Computer Service!
         </p>
        <p>Here are some of the problems we can help you with! </p>
