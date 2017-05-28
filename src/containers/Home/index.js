@@ -8,17 +8,17 @@ class Home extends Component {
       <Container text id="home">
        <Header as='h2'>Welcome to DJ's Computer Repair Shop!</Header>
        <div className="ui divider"></div>
-       <p className="blue">Need Computer Help? Give us a call or email for a FREE diagnosis!</p>
+       <p className="blue">Need Computer Help? Give us a call or email for a FREE diagnostic!</p>
        <p />
-       <p>Here at DJ's Computers, we aim to provide lightning-fast, professional computer repairs within a single business day.
-       Can't bring your computer to us? We can provide in-home Computer Service!
+       <p>Here at DJ's Computers, we aim to provide lightning-fast, professional computer repairs within a single business day. If we can't
+       fix your computer, there won't be any fee!
         </p>
        <p>Here are some of the problems we can help you with! </p>
 
        <Grid columns={2} divided>
         <Grid.Row>
           <Grid.Column>
-            <Image src='../nofix_nofee.jpg' size="medium" id="nofix_nofee"/>
+            <Image src='../services_image.jpg' size="large" id="nofix_nofee"/>
           </Grid.Column>
           <Grid.Column>
            <ul>

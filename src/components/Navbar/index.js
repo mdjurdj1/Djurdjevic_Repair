@@ -14,7 +14,7 @@ class Navbar extends Component {
    const { activeItem } = this.state
 
    return (
-     <Menu fluid widths={5} id="navbar">
+     <Menu fluid widths={6} id="navbar">
        <Menu.Item />
        <Menu.Item href="/"
          name='editorials'
@@ -29,7 +29,7 @@ class Navbar extends Component {
          active={activeItem === 'reviews'}
          onClick={this.handleItemClick}
        >
-         <span className="nav_text"><i className="wrench icon"></i>Services</span>
+         <span className="nav_text"><i className="laptop icon"></i>Services</span>
        </Menu.Item>
 
        <Menu.Item href="/about"
@@ -38,6 +38,13 @@ class Navbar extends Component {
          onClick={this.handleItemClick}
        >
          <span className="nav_text"><i className="newspaper icon"></i>About Us</span>
+       </Menu.Item>
+       <Menu.Item href="/contact"
+         name='editorials'
+         active={activeItem === 'contact'}
+         onClick={this.handleItemClick}
+       >
+       <span className="nav_text"><i className="mail outline icon"></i>Contact</span>
        </Menu.Item>
         <Menu.Item />
      </Menu>
