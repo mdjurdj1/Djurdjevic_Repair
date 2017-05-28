@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 import { Menu } from 'semantic-ui-react'
 import './navbar.css'
+
 
 class Navbar extends Component {
 
@@ -14,12 +16,12 @@ class Navbar extends Component {
    return (
      <Menu fluid widths={5} id="navbar">
        <Menu.Item />
-       <Menu.Item
+       <Menu.Item href="/"
          name='editorials'
          active={activeItem === 'editorials'}
          onClick={this.handleItemClick}
        >
-        <span className="nav_text"><i className="home icon"></i>Home</span>
+       <span className="nav_text"><i className="home icon"></i>Home</span>
        </Menu.Item>
 
        <Menu.Item
@@ -30,7 +32,7 @@ class Navbar extends Component {
          <span className="nav_text"><i className="wrench icon"></i>Services</span>
        </Menu.Item>
 
-       <Menu.Item
+       <Menu.Item href="/about"
          name='upcomingEvents'
          active={activeItem === 'upcomingEvents'}
          onClick={this.handleItemClick}
