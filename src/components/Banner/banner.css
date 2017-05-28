@@ -10,6 +10,7 @@ div#banner {
 img#company_logo {
   margin-top: .8em;
   max-height: 120px;
+  max-width: 500px;
 }
 div#contact_info {
   margin-left: 10em;
