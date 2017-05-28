@@ -8,7 +8,7 @@ export default class Banner extends Component {
       <div id="banner">
         <div className="ui grid">
 
-        <div className="two wide column" />
+        <div className="three wide column" />
 
           <Image src='../Logo.png' size="large" id="company_logo"/>
 

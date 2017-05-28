@@ -12,7 +12,8 @@ class Navbar extends Component {
    const { activeItem } = this.state
 
    return (
-     <Menu fluid widths={3} id="navbar">
+     <Menu fluid widths={5} id="navbar">
+       <Menu.Item />
        <Menu.Item
          name='editorials'
          active={activeItem === 'editorials'}
@@ -36,6 +37,7 @@ class Navbar extends Component {
        >
          <span className="nav_text"><i className="newspaper icon"></i>About Us</span>
        </Menu.Item>
+        <Menu.Item />
      </Menu>
    )
  }
