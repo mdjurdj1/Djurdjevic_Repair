@@ -11,6 +11,7 @@ import Banner from './components/Banner'
 import Navbar from './components/Navbar'
 import Home from './containers/Home'
 import About from './containers/About'
+import Services from './containers/Services'
 
 const NavigationWithRouter = withRouter(Navbar)
 
@@ -25,6 +26,7 @@ class App extends Component {
             <Switch>
               <Route exact path='/' component={Home} />
               <Route path='/about' component={About} />
+              <Route path='/services' component={Services} />
             </Switch>
           </div>
         </Router>

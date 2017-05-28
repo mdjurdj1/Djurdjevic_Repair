@@ -24,7 +24,7 @@ class Navbar extends Component {
        <span className="nav_text"><i className="home icon"></i>Home</span>
        </Menu.Item>
 
-       <Menu.Item
+       <Menu.Item href="/services"
          name='reviews'
          active={activeItem === 'reviews'}
          onClick={this.handleItemClick}

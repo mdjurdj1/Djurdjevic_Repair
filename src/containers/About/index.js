@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import { Container, Header, Image, Grid } from 'semantic-ui-react'
 import './about.css'
+
 export default class About extends Component {
   render() {
     return (
