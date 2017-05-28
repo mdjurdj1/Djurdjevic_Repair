@@ -1,3 +1,22 @@
-div#company_logo {
-  margin-left: 10em;
+div#banner {
+  padding-top: 1em;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, white , silver); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, white, silver); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, white, silver); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, white , silver); /* Standard syntax */
+  margin-bottom: 2em;
+}
+img#company_logo {
+  margin-left: 15%;
+  max-height: 120px;
+}
+div#contact_info {
+  float: right;
+}
+
+p#phone_number {
+  font-size: large;
+  font-weight: 600;
+  color: blue
 }
