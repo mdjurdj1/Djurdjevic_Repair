@@ -1,0 +1,12 @@
+div#navbar {
+  margin-top: 0;
+  border-top: thick double #00B3E6;
+  border-bottom: 1px solid gray;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+.nav_text {
+  margin-right: 1.3em;
+}
