@@ -4,6 +4,9 @@ div#home {
   font-size: 1.5em;
 }
 
+h1#home {
+  color: #0B80C6;
+}
 p.blue{
   color: blue;
   font-weight: bold;

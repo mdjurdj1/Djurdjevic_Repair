@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <Container text id="home">
-       <Header as='h2'>Welcome to DJ's Computer Repair Shop!</Header>
+       <Header as='h1' id="home">Welcome to DJ's Computer Repair Shop!</Header>
        <div className="ui divider"></div>
        <p className="blue">Need Computer Help? Give us a call or email for a FREE diagnostic!</p>
        <p />
