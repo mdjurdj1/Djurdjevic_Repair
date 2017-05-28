@@ -1,7 +1,11 @@
 div#services_div {
   width: 70%;
   margin: auto;
-  margin-top: 5em;
+  margin-top: 3em;
+}
+
+div#services_div h1 {
+  color: #0B80C6;
 }
 
 div.description {

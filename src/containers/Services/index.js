@@ -15,6 +15,8 @@ export default class Services extends Component {
   render() {
     return (
       <div id="services_div">
+      <h1>Our rate is $75.00 Per Hour. We offer a FREE diagnostic assessment for all computers. Click any service below for more information!</h1>
+      <h3>You can expect your computer back within one business day in most cases! (Sometimes we need to order parts, we'll let ya' know!)</h3> <br />
         <Card.Group itemsPerRow={4}>
           <Card raised
             image={src_one}
