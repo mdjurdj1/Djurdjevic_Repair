@@ -1,13 +1,14 @@
 div#banner {
   padding-top: 1em;
   padding-bottom: 2em;
-  background: red; /* For browsers that do not support gradients */
+  background: white; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, white , silver); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, white, silver); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, white, silver); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, white , silver); /* Standard syntax */
 }
 img#company_logo {
+  margin-top: .8em;
   max-height: 120px;
 }
 div#contact_info {
@@ -15,9 +16,14 @@ div#contact_info {
   text-align: right;
 }
 
-p#phone_number {
+div#contact_info h1 {
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+p.contact_text {
   font-size: large;
   font-weight: 600;
-  color: blue;
+  color: #0B80C6;
   margin-bottom: .25em;
 }
