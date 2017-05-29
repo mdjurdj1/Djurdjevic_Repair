@@ -16,7 +16,8 @@ export default class Banner extends Component {
               <h1>Contact Us!</h1>
               <p className="contact_text">(518)-610-8190 <i className="phone icon"></i></p>
               <p className="contact_text">mdjurdj1@gmail.com <i className="mail outline icon"></i></p>
-              <p>57 Hemlock St., Valatie, NY 12184</p>
+              <p id="contact_address">57 Hemlock St., Valatie, NY 12184</p>
+              <p id="espanol">Se Habla Español!</p>
           </div>
 
         </div>

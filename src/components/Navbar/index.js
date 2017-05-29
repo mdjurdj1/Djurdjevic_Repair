@@ -10,6 +10,16 @@ class Navbar extends Component {
 
  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
+ componentDidMount() {
+   let arr = this.props.location.pathname.split("")
+   arr.splice(0, 1)
+   let location = arr.join("")
+
+   this.setState({
+     activeItem: location ? location : "home"
+   })
+ }
+
  render() {
    const { activeItem } = this.state
 
@@ -17,30 +27,30 @@ class Navbar extends Component {
      <Menu fluid widths={6} id="navbar">
        <Menu.Item />
        <Menu.Item href="/"
-         name='editorials'
-         active={activeItem === 'editorials'}
+         name='home'
+         active={activeItem === 'home'}
          onClick={this.handleItemClick}
        >
        <span className="nav_text"><i className="home icon"></i>Home</span>
        </Menu.Item>
 
        <Menu.Item href="/services"
-         name='reviews'
-         active={activeItem === 'reviews'}
+         name='services'
+         active={activeItem === 'services'}
          onClick={this.handleItemClick}
        >
          <span className="nav_text"><i className="laptop icon"></i>Services</span>
        </Menu.Item>
 
        <Menu.Item href="/about"
-         name='upcomingEvents'
-         active={activeItem === 'upcomingEvents'}
+         name='about'
+         active={activeItem === 'about'}
          onClick={this.handleItemClick}
        >
          <span className="nav_text"><i className="newspaper icon"></i>About Us</span>
        </Menu.Item>
        <Menu.Item href="/contact"
-         name='editorials'
+         name='contact'
          active={activeItem === 'contact'}
          onClick={this.handleItemClick}
        >

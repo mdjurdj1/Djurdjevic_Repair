@@ -12,6 +12,10 @@ div#navbar {
 }
 
 .nav_text:hover {
-  color: #0B80C6;
   font-weight: bold;
+}
+
+a.active.item {
+  background-color: #B4D8E7 !important;
+  font-weight: bold !important
 }
