@@ -1,0 +1,12 @@
+div#contact_div {
+  margin-top: 2em;
+}
+
+h1#contact {
+  color: #0B80C6;
+}
+
+p.contact_p {
+  font-weight: bold;
+  font-size: 1.2em
+}
