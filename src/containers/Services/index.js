@@ -21,39 +21,48 @@ export default class Services extends Component {
         <Card.Group itemsPerRow={3}>
           <Card raised
             image={src_one}
-            description="Virus Removal"
+            header="Virus Removal"
+            description="Popups and Viruses infecting your system? We'll remove them all, and install top-notch security software!"
              />
           <Card raised
             image={src_two}
-            description="PC Tune-Up"
+            header="PC Tune-Up"
+            description="Computer running slow? Time for a tune-up. Free up space, update your Operating System, and more!"
            />
            <Card raised
              image={src_three}
-             description="Data Backup & Restore"
+             header="Data Backup & Restore"
+             description="Everone needs a data backup in case of computer failure! We can also recover lost data."
             />
            <Card raised
               image={src_four}
-              description="Data Transfer"
+              header="Data Transfer"
+              description="Transfer music, files, and data between computers or from a computer to a phone and vice versa."
              />
            <Card raised
                image={src_five}
-               description="Upgrade Memory & Hard Drive"
+               header="Upgrade Memory & Hard Drive"
+               description="Upgrading Memory and Hard Drive will PERMANENTLY speed up your computer and increase space!"
               />
             <Card raised
                 image={src_six}
-                description="Custom Computer Build"
+                header="Custom Computer Build"
+                description="Do your kids love gaming? Let's build them a customized computer with top-of-the-line parts! Perfect for anyone who needs a power PC!"
                />
              <Card raised
                  image={src_seven}
-                 description="Software Setup & Install"
+                 header="Software Setup & Install"
+                 description="We can install and configure ANY software you might need. No hassle!"
                 />
             <Card raised
                 image={src_eight}
-                description="Websites for Personal & Small Businesses"
+                header="Websites for Personal & Small Businesses"
+                description="Need a website designed for your business? Want to own a custom webpage? We can make it happen!"
                />
             <Card raised
                image={src_nine}
-               description="Cracked Phone Screen Replacement"
+               header="Cracked Phone Screen Replacement"
+               description="Don't pay apple $150 to replace a cracked phone screen! We can do it for half the price. Ask for laptop screen replacements!"
               />
         </Card.Group>
       </div>

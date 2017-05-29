@@ -2,6 +2,11 @@ div#services_div {
   width: 60em;
   margin: auto;
   margin-top: 3em;
+  margin-bottom: 15em;
+}
+
+div.header {
+  text-align: center;
 }
 
 div#services_div h1 {
@@ -10,7 +15,6 @@ div#services_div h1 {
 
 div.description {
   text-align: center;
-  font-size: 1.5em;
   font-weight: bold;
 }
 
