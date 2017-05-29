@@ -8,7 +8,7 @@ class Home extends Component {
       <Container text id="home">
        <Header as='h1' id="home">Welcome to DJ's Computer Repair Shop!</Header>
        <div className="ui divider"></div>
-       <p className="blue">Need Computer Help? Give us a call or email for a FREE diagnostic!</p>
+       <p className="blue">Need Computer Help? Give us a call at (518)-610-8190 or email us at mdjurdj1@gmail.com for a FREE diagnostic!</p>
        <p />
        <p>Here at DJ's Computers, we aim to provide lightning-fast, professional computer repairs within a single business day. If we can't
        fix your computer, there won't be any fee!
