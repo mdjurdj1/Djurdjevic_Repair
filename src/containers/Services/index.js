@@ -17,6 +17,7 @@ export default class Services extends Component {
     return (
       <div id="services_div">
       <h1>Our rate is $75.00 Per Hour. We offer a FREE diagnostic assessment for all computers, just give us a call! </h1>
+      <h3>Need In-Home Support? Call and ask to see if you're within our travel range! (Travel Rate is $100/hr)</h3>
       <h3>You can expect your computer back within one business day in most cases! (Sometimes we need to order parts, we'll let ya' know!)</h3> <br />
         <Card.Group itemsPerRow={3}>
           <Card raised
