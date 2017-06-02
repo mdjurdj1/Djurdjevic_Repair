@@ -11,10 +11,6 @@ div#navbar {
   margin-right: 1.3em;
 }
 
-.nav_text:hover {
-  font-weight: bold;
-}
-
 a.active.item {
   background-color: #B4D8E7 !important;
   font-weight: bold !important
