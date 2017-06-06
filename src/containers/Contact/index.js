@@ -6,7 +6,7 @@ export default class Contact extends Component {
   render() {
     return (
       <Container text id="contact_div">
-         <Header as='h1' id="contact">Contact us and let's see if we can help!</Header>
+         <Header as='h1' id="contact">Contact us and we'll see if we can help!</Header>
           <div className="ui divider"></div>
           <p className="contact_p">Phone: 518-610-8190</p>
           <p className="contact_p">Cell: 718-662-6765</p>
